@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('develop') {
       steps {
-        sh 'script'
         echo 'I want to develop'
       }
     }
